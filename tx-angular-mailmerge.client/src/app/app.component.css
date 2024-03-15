@@ -1,7 +1,7 @@
-﻿:host {
+:host {
     max-width: 1280px;
-    padding: 2rem;
     text-align: center;
+    font-family: Arial, sans-serif;
 }
 
 tr:nth-child(even) {
@@ -19,4 +19,8 @@ th, td {
 
 table {
     margin: 0 auto;
+}
+
+button {
+    margin-bottom: 1rem;
 }
