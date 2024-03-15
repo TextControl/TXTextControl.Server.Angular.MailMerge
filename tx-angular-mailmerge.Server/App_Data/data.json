@@ -1,0 +1,39 @@
+[
+  {
+      "id": "123456",
+      "date": "2014-06-25",
+      "due_date": "2014-07-25",
+      "reference": "12345",
+      "currency": "USD",
+      "exchange_rate": 1,
+      "discount": 0,
+      "items": [
+        {
+          "id": "1",
+          "description": "Consulting services",
+          "quantity": 10,
+          "unit_cost": 100
+        },
+        {
+          "id": "2",
+          "description": "Website design",
+          "quantity": 1,
+          "unit_cost": 2000
+        },
+        {
+          "id": "3",
+          "description": "Website hosting (3 months)",
+          "quantity": 1,
+          "unit_cost": 150
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Sales Tax",
+          "rate": 7.5
+        }
+      ],
+      "notes": "Thanks for your business!",
+      "terms": "No refunds after 30 days."
+    }
+]
