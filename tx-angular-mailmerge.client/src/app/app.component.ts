@@ -2,7 +2,6 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit, HostListener } from '@angular/core';
 
 declare const TXTextControl: any;
-declare const loadJson: any;
 
 interface MailMergeData {
   json?: string;
